@@ -1,1 +1,2 @@
-https://www.yjbys.com/shixi/shixibaogaofanwen/869559.html
+示例链接https://www.yjbys.com/shixi/shixibaogaofanwen/869559.html
+用fiddler改包，将包含copy监听器和弹窗的js替换成那两个的其一都可以
