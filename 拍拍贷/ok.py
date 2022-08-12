@@ -38,6 +38,6 @@ data = {
 }
 data['password'] = pwd
 data['userName'] = un
-##这里负载是json，所以要转换成json在提交，放在data形参里，不是json形参！
+##这里负载是json，要转换成json在提交，放在data里
 r2 = requests.post(url, headers = headers, data = json.dumps(data), params = params)
 print(r2.json())
