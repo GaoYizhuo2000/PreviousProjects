@@ -1,14 +1,8 @@
-/** 
-* DES加密解密 
-* @Copyright Copyright (c) 2006 
-* @author Guapo 
-* @see DESCore 
-*/  
-  
-/* 
-* encrypt the string to string made up of hex 
-* return the encrypted string 
-*/  
+//
+//
+//This is for generating valid encrypted params locally regardless of session and browser status
+
+
 function strEnc(data,firstKey,secondKey,thirdKey){  
   
  var leng = data.length;  
